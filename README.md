@@ -4,11 +4,11 @@
 
 1. Install SDK as in readme
 
-2. run ./lidar_lvx_sample -t 1
+2. run ./build/sample/lidar_lv_file/lidar_lvx_sample -t 1
 
 this will generate [TIMESTAMP].lvx, which is a binary file of the point clouds.
 
-3. run read_points.py
+3. run `read_points.py`
 
 This will read binary files with python and convert it to numpy array.
 
