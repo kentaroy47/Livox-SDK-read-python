@@ -1,4 +1,23 @@
-[中文版本使用说明](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)
+# Read with python
+
+* Lidar: Horizon
+
+1. Install SDK as in readme
+
+2. run ./lidar_lvx_sample -t 1
+
+this will generate [TIMESTAMP].lvx, which is a binary file of the point clouds.
+
+3. run read_points.py
+
+This will read binary files with python and convert it to numpy array.
+
+Here, we visuallize this with pptk.
+
+Change the filename to whatever it fits.
+
+
+#############################################
 
 # 1 Introduction
 
